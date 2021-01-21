@@ -1,0 +1,14 @@
+{
+	"extends": "./tsconfig.json",
+	"compilerOptions": {
+		"outDir": "./packages/algots",
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noImplicitReturns": true,
+		"noFallthroughCasesInSwitch": true,
+		"declaration": true,
+		"removeComments": true
+	},
+	"include": ["./src/**/*"],
+	"exclude": ["./tests", "./dist", "./node_modules"]
+}
