@@ -1,10 +1,20 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.MaxPQ = void 0;
-const PQ_1 = require("./PQ");
-class MaxPQ extends PQ_1.PQ {
-    comparer(i, j) {
-        return this.compare(this.pq[i], this.pq[j]) < 0;
+(function (factory) {
+    if (typeof module === "object" && typeof module.exports === "object") {
+        var v = factory(require, exports);
+        if (v !== undefined) module.exports = v;
     }
-}
-exports.MaxPQ = MaxPQ;
+    else if (typeof define === "function" && define.amd) {
+        define(["require", "exports", "./PQ"], factory);
+    }
+})(function (require, exports) {
+    "use strict";
+    Object.defineProperty(exports, "__esModule", { value: true });
+    exports.MaxPQ = void 0;
+    const PQ_1 = require("./PQ");
+    class MaxPQ extends PQ_1.PQ {
+        comparer(i, j) {
+            return this.compare(this.pq[i], this.pq[j]) < 0;
+        }
+    }
+    exports.MaxPQ = MaxPQ;
+});
