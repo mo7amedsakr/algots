@@ -20,12 +20,10 @@ function swap(arr, i, j) {
     arr[j] = temp;
 }
 exports.swap = swap;
-const int = (n) => n | 0;
-exports.int = int;
-const shuffle = (arr) => {
+exports.int = (n) => n | 0;
+exports.shuffle = (arr) => {
     for (let i = 0; i < arr.length; i++) {
         const r = exports.int(Math.random() * (i + 1));
         swap(arr, r, i);
     }
 };
-exports.shuffle = shuffle;

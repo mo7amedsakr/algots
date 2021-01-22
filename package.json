@@ -1,5 +1,5 @@
 {
-	"name": "algots",
+	"name": "algots4",
 	"version": "0.0.1",
 	"description": "Algorithms and data structures implementation with TypeScript",
 	"workspaces": [
@@ -14,6 +14,9 @@
 		"type": "git",
 		"url": "git+https://github.com/mo7amedsakr/algots.git"
 	},
+	"files": [
+		"packages/algots/**"
+	],
 	"author": "mo7amedsakr",
 	"license": "MIT",
 	"bugs": {
