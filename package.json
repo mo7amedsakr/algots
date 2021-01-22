@@ -2,9 +2,6 @@
 	"name": "algots",
 	"version": "0.0.1",
 	"description": "Algorithms and data structures implementation with TypeScript",
-	"workspaces": [
-		"packages/*"
-	],
 	"scripts": {
 		"test": "jest /dist/tests",
 		"watch:ts": "tsc --project tsconfig.dev.json -w",
@@ -15,9 +12,9 @@
 		"url": "git+https://github.com/mo7amedsakr/algots.git"
 	},
 	"files": [
-		"packages/algots/**"
+		"package/"
 	],
-	"author": "mo7amedsakr",
+	"author": "mo7amedsakr & zyadelhady",
 	"license": "MIT",
 	"bugs": {
 		"url": "https://github.com/mo7amedsakr/algots/issues"
