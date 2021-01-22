@@ -1,5 +1,5 @@
 {
-	"name": "algots4",
+	"name": "algots",
 	"version": "0.0.1",
 	"description": "Algorithms and data structures implementation with TypeScript",
 	"workspaces": [
