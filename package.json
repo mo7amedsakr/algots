@@ -1,6 +1,6 @@
 {
 	"name": "algots",
-	"version": "0.0.1",
+	"version": "0.0.3",
 	"description": "Algorithms and data structures implementation with TypeScript",
 	"scripts": {
 		"test": "jest /dist/tests",
@@ -12,7 +12,7 @@
 		"url": "git+https://github.com/mo7amedsakr/algots.git"
 	},
 	"files": [
-		"package/"
+		"package/**/"
 	],
 	"author": "mo7amedsakr & zyadelhady",
 	"license": "MIT",
